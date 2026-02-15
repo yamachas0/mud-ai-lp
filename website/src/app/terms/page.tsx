@@ -24,7 +24,7 @@ export default function TermsPage() {
               <h2 className="text-xl font-bold text-mudai-black mb-4">第1条（適用）</h2>
               <p>
                 本利用規約（以下「本規約」）は、合同会社MUD-Ai（以下「当社」）が提供する
-                Webサイト（mudaisuki.com）および各種サービス（以下「本サービス」）の利用に関する
+                Webサイト（mud-ai.com）および各種サービス（以下「本サービス」）の利用に関する
                 条件を定めるものです。利用者は、本規約に同意した上で本サービスを利用するものとします。
               </p>
             </div>
@@ -98,7 +98,7 @@ export default function TermsPage() {
               <p className="text-mudai-gray-400 text-sm">
                 合同会社MUD-Ai<br />
                 所在地: [登記住所]<br />
-                メール: info@mudaisuki.com
+                メール: info@mud-ai.com
               </p>
             </div>
           </div>

@@ -10,8 +10,8 @@
 | 代表社員 | [代表者名] |
 | 所在地 | [登記住所] |
 | 電話番号 | [電話番号] |
-| メール | info@mudaisuki.com |
-| Webサイト | https://mudaisuki.com |
+| メール | info@mud-ai.com |
+| Webサイト | https://mud-ai.com |
 | 資本金 | [資本金] |
 | 決算期 | [決算月] |
 
@@ -76,8 +76,8 @@ CEO / Founder
 
 ## お問い合わせ
 
-- **メール:** info@mudaisuki.com
-- **Webサイト:** https://mudaisuki.com
+- **メール:** info@mud-ai.com
+- **Webサイト:** https://mud-ai.com
 - **お問い合わせフォーム:** [Google FormsのURLを設定]
 
 ---

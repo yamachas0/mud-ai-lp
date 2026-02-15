@@ -29,8 +29,8 @@ const COMPANY = {
   zipCode: "〒___-____",
   address: "[登記住所]",
   tel: "[電話番号]",
-  email: "info@mudaisuki.com",
-  website: "mudaisuki.com",
+  email: "info@mud-ai.com",
+  website: "mud-ai.com",
   bank: {
     name: "[銀行名]",
     branch: "[支店名]",

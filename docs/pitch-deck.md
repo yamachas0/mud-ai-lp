@@ -8,7 +8,7 @@
 
 無駄が好きなんです —— まだ無題、これから無限
 
-mudaisuki.com
+mud-ai.com
 
 ---
 
@@ -85,8 +85,8 @@ CEO / Founder
 
 **合同会社MUD-Ai**
 
-- Web: mudaisuki.com
-- Email: info@mudaisuki.com
+- Web: mud-ai.com
+- Email: info@mud-ai.com
 
 *無駄が好きなんです*
 

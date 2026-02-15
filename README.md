@@ -48,7 +48,7 @@ mudai-corporate/
 - **スタイリング:** Tailwind CSS
 - **フォント:** Noto Sans JP
 - **ホスティング:** Cloudflare Pages
-- **メール:** Google Workspace (info@mudaisuki.com)
+- **メール:** Google Workspace (info@mud-ai.com)
 - **CI/CD:** GitHub Actions
 
 ## カラーパレット
@@ -110,9 +110,9 @@ npx wrangler pages deploy out --project-name=mudai-corporate
 
 ### Google Workspace メール設定
 
-1. Google Workspace で mudaisuki.com ドメインを認証
+1. Google Workspace で mud-ai.com ドメインを認証
 2. DNS に Google Workspace 用 MX レコードを追加
-3. info@mudaisuki.com アカウントを作成
+3. info@mud-ai.com アカウントを作成
 
 ## 開発コマンド一覧
 
@@ -144,4 +144,4 @@ MIT License
 
 ---
 
-合同会社MUD-Ai | mudaisuki.com
+合同会社MUD-Ai | mud-ai.com

@@ -43,10 +43,10 @@ export default function Contact() {
                   または直接メールでのお問い合わせ
                 </p>
                 <a
-                  href="mailto:info@mudaisuki.com"
+                  href="mailto:info@mud-ai.com"
                   className="text-mudai-accent hover:text-mudai-accent-dark transition-colors text-lg font-medium"
                 >
-                  info@mudaisuki.com
+                  info@mud-ai.com
                 </a>
               </div>
             </div>

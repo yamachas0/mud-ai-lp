@@ -117,7 +117,7 @@ export default function PrivacyPage() {
               <div className="mt-4 text-mudai-gray-500">
                 合同会社MUD-Ai<br />
                 所在地: [登記住所]<br />
-                メール: info@mudaisuki.com
+                メール: info@mud-ai.com
               </div>
             </div>
           </div>

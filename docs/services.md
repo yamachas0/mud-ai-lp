@@ -139,8 +139,8 @@
 
 各サービスの詳細やお見積もりについては、お気軽にお問い合わせください。
 
-- **メール:** info@mudaisuki.com
-- **Webサイト:** https://mudaisuki.com
+- **メール:** info@mud-ai.com
+- **Webサイト:** https://mud-ai.com
 
 ---
 

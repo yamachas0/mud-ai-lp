@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "合同会社MUD-Ai",
     description: "無駄とAIのカケザンで、まだ見ぬ社会を創造する",
-    url: "https://mudaisuki.com",
+    url: "https://mud-ai.com",
     siteName: "合同会社MUD-Ai",
     locale: "ja_JP",
     type: "website",

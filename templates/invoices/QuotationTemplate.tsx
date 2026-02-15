@@ -29,7 +29,7 @@ const COMPANY = {
   zipCode: "〒___-____",
   address: "[登記住所]",
   tel: "[電話番号]",
-  email: "info@mudaisuki.com",
+  email: "info@mud-ai.com",
 };
 
 const TAX_RATE = 0.1;
