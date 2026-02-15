@@ -1,0 +1,59 @@
+# 合同会社MUD-Ai - Cloudflare Pages 自動デプロイ
+#
+# mainブランチへのpushで自動的にCloudflare Pagesへデプロイします。
+#
+# 必要なGitHub Secrets:
+#   CLOUDFLARE_API_TOKEN   - Cloudflare APIトークン
+#   CLOUDFLARE_ACCOUNT_ID  - CloudflareアカウントID
+#
+# Secrets設定方法:
+#   1. Cloudflare Dashboard > My Profile > API Tokens
+#   2. 「Create Token」>「Cloudflare Pages: Edit」テンプレートを使用
+#   3. トークンを生成してコピー
+#   4. Cloudflare Dashboard > 左下のアカウントIDをコピー
+#   5. GitHub > Settings > Secrets and variables > Actions
+#   6. 「New repository secret」で以下を登録:
+#      - CLOUDFLARE_API_TOKEN: 生成したAPIトークン
+#      - CLOUDFLARE_ACCOUNT_ID: アカウントID
+
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'website/**'
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: website
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: website/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: mudai-corporate
+          directory: website/out
