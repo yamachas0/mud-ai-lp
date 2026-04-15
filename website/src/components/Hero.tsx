@@ -4,7 +4,7 @@ import ScrollFadeIn from "./ScrollFadeIn";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-gradient-hero">
       {/* 有機的な背景シェイプ */}
       <div className="absolute inset-0 pointer-events-none">
         <div
@@ -31,7 +31,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="container-mudai mx-auto flex flex-col items-center justify-center text-center relative z-10">
+      <div className="container-mudai w-full flex flex-col items-center justify-center text-center relative z-10">
         <ScrollFadeIn delay={200} className="w-full flex justify-center text-center">
           <p className="text-xs md:text-sm tracking-[0.5em] text-mudai-accent font-medium mb-8 uppercase text-center mx-auto">
             Make Unusual Dreams AI-powered
