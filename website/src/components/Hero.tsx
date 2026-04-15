@@ -4,7 +4,7 @@ import ScrollFadeIn from "./ScrollFadeIn";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-gradient-hero">
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-gradient-hero pt-20 md:pt-24">
       {/* 有機的な背景シェイプ */}
       <div className="absolute inset-0 pointer-events-none">
         <div
