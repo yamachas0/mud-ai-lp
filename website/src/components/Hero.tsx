@@ -81,13 +81,7 @@ export default function Hero() {
         </ScrollFadeIn>
       </div>
 
-      {/* スクロールインジケーター */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-        <span className="text-[10px] tracking-[0.3em] text-mudai-gray-400 uppercase">
-          Scroll
-        </span>
-        <div className="w-px h-10 bg-gradient-to-b from-mudai-accent to-transparent animate-scroll-bounce" />
-      </div>
+
 
       {/* 下部ウェーブ */}
       <div className="absolute bottom-0 left-0 right-0 wave-divider">
