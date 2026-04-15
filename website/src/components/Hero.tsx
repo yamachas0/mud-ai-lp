@@ -31,7 +31,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="w-full flex flex-col items-center justify-center text-center relative z-10 px-6">
+      <div className="container-mudai mx-auto flex flex-col items-center justify-center text-center relative z-10">
         <ScrollFadeIn delay={200} className="w-full flex justify-center text-center">
           <p className="text-xs md:text-sm tracking-[0.5em] text-mudai-accent font-medium mb-8 uppercase text-center mx-auto">
             Make Unusual Dreams AI-powered
