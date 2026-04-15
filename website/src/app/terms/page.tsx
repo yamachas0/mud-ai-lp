@@ -98,7 +98,7 @@ export default function TermsPage() {
               <p className="text-mudai-gray-400 text-sm">
                 合同会社MUD-Ai<br />
                 所在地: [登記住所]<br />
-                メール: info@mud-ai.com
+                メール: kenta.y@mud-ai.com
               </p>
             </div>
           </div>

@@ -25,8 +25,11 @@ export default function Header() {
         scrolled ? "bg-white/90 backdrop-blur-md shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="container-mudai flex items-center justify-between h-16 md:h-20">
-        <a href="/" className="select-none flex items-center gap-2">
+      <div className="container-mudai flex items-center justify-between h-16 md:h-20 relative">
+        {/* 左側のレイアウトバランス用ダミー */}
+        <div className="w-8 md:w-24"></div>
+
+        <a href="/" className="select-none flex items-center gap-2 absolute left-1/2 -translate-x-1/2">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/logo.png"
