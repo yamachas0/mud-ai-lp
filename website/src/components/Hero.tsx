@@ -32,48 +32,48 @@ export default function Hero() {
       </div>
 
       <div className="w-full flex flex-col items-center justify-center text-center relative z-10 px-6">
-        <ScrollFadeIn delay={200}>
-          <p className="text-xs md:text-sm tracking-[0.5em] text-mudai-accent font-medium mb-8 uppercase">
+        <ScrollFadeIn delay={200} className="w-full flex justify-center text-center">
+          <p className="text-xs md:text-sm tracking-[0.5em] text-mudai-accent font-medium mb-8 uppercase text-center mx-auto">
             Make Unusual Dreams AI-powered
           </p>
         </ScrollFadeIn>
 
-        <ScrollFadeIn delay={500}>
-          <div className="mb-6 flex justify-center">
+        <ScrollFadeIn delay={500} className="w-full flex justify-center">
+          <div className="mb-6 flex justify-center w-full">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/logo.png"
               alt="MUD-Ai"
-              className="h-32 md:h-48 lg:h-56 w-auto drop-shadow-lg"
+              className="h-32 md:h-48 lg:h-56 w-auto drop-shadow-lg mx-auto"
             />
           </div>
         </ScrollFadeIn>
 
-        <ScrollFadeIn delay={800}>
-          <p className="text-2xl md:text-3xl text-mudai-gray-600 mb-4 font-bold tracking-widest">
+        <ScrollFadeIn delay={800} className="w-full flex justify-center">
+          <p className="text-2xl md:text-3xl text-mudai-gray-600 mb-4 font-bold tracking-widest text-center mx-auto">
             合同会社MUD-Ai
           </p>
         </ScrollFadeIn>
 
-        <ScrollFadeIn delay={1000}>
-          <p className="text-lg md:text-2xl text-mudai-gray-500 mb-16 max-w-xl mx-auto leading-relaxed font-medium">
+        <ScrollFadeIn delay={1000} className="w-full flex justify-center">
+          <p className="text-lg md:text-2xl text-mudai-gray-500 mb-16 max-w-xl mx-auto leading-relaxed font-medium text-center">
             無駄とAIのカケザンで、
             <br className="hidden sm:block" />
             まだ見ぬ社会を創造する
           </p>
         </ScrollFadeIn>
 
-        <ScrollFadeIn delay={1200}>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <ScrollFadeIn delay={1200} className="w-full flex justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full">
             <a
               href="#services"
-              className="px-10 py-4 bg-mudai-accent text-white text-base tracking-wider rounded-full hover:bg-mudai-accent-dark transition-all duration-300 hover:shadow-lg hover:shadow-mudai-accent/20"
+              className="px-10 py-4 bg-mudai-accent text-white text-base tracking-wider rounded-full hover:bg-mudai-accent-dark transition-all duration-300 hover:shadow-lg hover:shadow-mudai-accent/20 text-center inline-block"
             >
               サービスを見る
             </a>
             <a
               href="#contact"
-              className="px-10 py-4 border-2 border-mudai-accent text-mudai-accent text-base tracking-wider rounded-full hover:bg-mudai-accent hover:text-white transition-all duration-300"
+              className="px-10 py-4 border-2 border-mudai-accent text-mudai-accent text-base tracking-wider rounded-full hover:bg-mudai-accent hover:text-white transition-all duration-300 text-center inline-block"
             >
               お問い合わせ
             </a>
