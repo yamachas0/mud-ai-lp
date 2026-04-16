@@ -22,7 +22,7 @@ export default function Footer() {
               無駄とAIのカケザンで、まだ見ぬ社会を創造する
             </p>
             <div className="mt-3 space-y-0.5 text-xs text-mudai-gray-400">
-              <p>代表社員：山川健太</p>
+              <p>代表社員：山川 健太（Kenta Yamakawa）</p>
               <p>所在地：千葉県八千代市</p>
               <p>法人番号：1040003029635</p>
               <p>Email：kenta.y@mud-ai.com</p>

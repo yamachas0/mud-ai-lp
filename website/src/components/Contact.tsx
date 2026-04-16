@@ -25,30 +25,15 @@ export default function Contact() {
         <ScrollFadeIn delay={200}>
           <div className="bg-white rounded-2xl p-8 md:p-12 border border-mudai-gray-100 shadow-sm">
             <div className="text-center">
-              <p className="text-mudai-gray-500 mb-8 text-base">
-                以下のフォームよりお問い合わせください
+              <p className="text-base text-mudai-gray-400 mb-3">
+                メールにてお問い合わせください
               </p>
-
               <a
-                href="https://forms.google.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-10 py-4 bg-mudai-accent text-white text-base tracking-wider rounded-full hover:bg-mudai-accent-dark transition-all duration-300 hover:shadow-lg hover:shadow-mudai-accent/20"
+                href="mailto:kenta.y@mud-ai.com"
+                className="text-mudai-accent hover:text-mudai-accent-dark transition-colors text-lg font-medium"
               >
-                お問い合わせフォームを開く
+                kenta.y@mud-ai.com
               </a>
-
-              <div className="mt-10 pt-8 border-t border-mudai-gray-100">
-                <p className="text-base text-mudai-gray-400 mb-3">
-                  または直接メールでのお問い合わせ
-                </p>
-                <a
-                  href="mailto:kenta.y@mud-ai.com"
-                  className="text-mudai-accent hover:text-mudai-accent-dark transition-colors text-lg font-medium"
-                >
-                  kenta.y@mud-ai.com
-                </a>
-              </div>
             </div>
           </div>
         </ScrollFadeIn>

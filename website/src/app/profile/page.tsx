@@ -27,7 +27,7 @@ export default function ProfilePage() {
                 {[
                   ["会社名", "合同会社MUD-Ai（マッドエーアイ）"],
                   ["所在地", "千葉県八千代市"],
-                  ["代表社員", "山川健太"],
+                  ["代表社員", "山川 健太（Kenta Yamakawa）"],
                   ["設立", "2026年3月4日"],
                   ["法人番号", "1040003029635"],
                   ["事業内容", "AIを活用した業務自動化支援、スライドデザイン、コミュニティ運営、システム開発、コンサルティング"],
@@ -53,7 +53,7 @@ export default function ProfilePage() {
                 CEO / Founder
               </p>
               <h3 className="text-2xl md:text-3xl font-bold mb-1">
-                Kenta Yamakawa
+                山川 健太（Kenta Yamakawa）
               </h3>
               <p className="text-base text-mudai-gray-500">
                 合同会社MUD-Ai 代表社員
