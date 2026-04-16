@@ -19,6 +19,30 @@ export default function ProfilePage() {
             代表プロフィール
           </h1>
 
+          <div className="mb-16">
+            <h2 className="text-xl font-bold mb-6">会社概要</h2>
+            <table className="w-full text-base text-mudai-gray-600 leading-relaxed border-collapse">
+              <tbody>
+                {[
+                  ["会社名", "合同会社MUD-Ai（マッドエーアイ）"],
+                  ["所在地", "千葉県八千代市"],
+                  ["代表社員", "山川健太"],
+                  ["設立", "2026年3月4日"],
+                  ["法人番号", "1040003029635"],
+                  ["事業内容", "AIを活用した業務自動化支援、スライドデザイン、コミュニティ運営、システム開発、コンサルティング"],
+                  ["連絡先", "kenta.y@mud-ai.com"],
+                ].map(([label, value]) => (
+                  <tr key={label} className="border-t border-mudai-gray-200">
+                    <td className="py-3 pr-6 text-sm font-medium text-mudai-gray-500 whitespace-nowrap align-top w-32">
+                      {label}
+                    </td>
+                    <td className="py-3">{value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
           <div>
             <div className="mb-8">
               <p className="text-sm text-mudai-accent font-medium mb-2">
