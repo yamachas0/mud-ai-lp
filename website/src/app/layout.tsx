@@ -29,6 +29,37 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "合同会社MUD-Ai",
+  "alternateName": "MUD-Ai LLC",
+  "url": "https://mud-ai.com/",
+  "logo": "https://mud-ai.com/logo.png",
+  "description": "AIを活用した業務自動化支援、スライドデザイン、コミュニティ運営、システム開発、コンサルティング",
+  "foundingDate": "2026-03-04",
+  "founder": {
+    "@type": "Person",
+    "name": "山川 健太"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "千葉県",
+    "addressLocality": "八千代市",
+    "addressCountry": "JP"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "kenta.y@mud-ai.com",
+    "contactType": "customer service"
+  },
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "japanCorporateNumber",
+    "value": "1040003029635"
+  }
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -36,6 +67,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja" className={notoSansJP.variable}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+      </head>
       <body className="font-sans antialiased text-mudai-black bg-white text-base">
         {children}
       </body>
