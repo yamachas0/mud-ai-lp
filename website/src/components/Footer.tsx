@@ -16,11 +16,17 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-mudai-gray-400">
-              合同会社MUD-Ai
+              合同会社MUD-Ai（MUD-Ai LLC）
             </p>
             <p className="text-sm text-mudai-gray-400 mt-1">
               無駄とAIのカケザンで、まだ見ぬ社会を創造する
             </p>
+            <div className="mt-3 space-y-0.5 text-xs text-mudai-gray-400">
+              <p>代表社員：山川健太</p>
+              <p>所在地：千葉県八千代市</p>
+              <p>法人番号：1040003029635</p>
+              <p>Email：kenta.y@mud-ai.com</p>
+            </div>
           </div>
 
           <div className="flex flex-col md:flex-row gap-6 md:gap-8 text-base text-mudai-gray-500">
