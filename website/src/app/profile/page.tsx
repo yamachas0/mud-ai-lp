@@ -70,30 +70,6 @@ export default function ProfilePage() {
 
             <div className="w-12 h-0.5 bg-mudai-accent mb-8" />
 
-            {/* 略歴 */}
-            <div className="mb-8">
-              <p className="text-sm font-medium text-mudai-gray-500 mb-4">略歴</p>
-              <table className="w-full text-base text-mudai-gray-600 leading-relaxed border-collapse">
-                <tbody>
-                  {[
-                    ["1988", "福島県福島市出身"],
-                    ["2012", "京都大学工学部建築学科卒業"],
-                    ["2014", "同大学院工学研究科建築学専攻修了"],
-                    ["2014〜", "株式会社日建設計"],
-                    ["2023〜", "トヨタ自動車株式会社"],
-                    ["2026", "合同会社MUD-Ai 設立"],
-                  ].map(([year, desc]) => (
-                    <tr key={year} className="border-t border-mudai-gray-200">
-                      <td className="py-3 pr-6 text-sm font-medium text-mudai-gray-500 whitespace-nowrap align-top w-20">
-                        {year}
-                      </td>
-                      <td className="py-3">{desc}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
             <div className="space-y-6 text-base text-mudai-gray-600 leading-relaxed">
               <p>
                 建築・都市・モビリティをバックグラウンドに、テクノロジーを駆使しつつ、無駄や余白から生まれる価値の最大化を目指す。
