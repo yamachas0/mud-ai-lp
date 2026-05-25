@@ -32,10 +32,6 @@ mudai-corporate/
 │   ├── services.md
 │   └── pitch-deck.md
 │
-├── .github/
-│   └── workflows/
-│       └── deploy.yml     # Cloudflare Pages自動デプロイ
-│
 ├── .gitignore
 ├── CONTRIBUTING.md
 └── README.md
@@ -91,21 +87,18 @@ npx serve out
 ### Cloudflare Pages（自動デプロイ）
 
 `main` ブランチへのpushで自動的にCloudflare Pagesへデプロイされます。
+これはCloudflare Pages側のGitHub連携（プロジェクト名: `mud-ai-lp`）が
+リポジトリを直接ビルド・公開する仕組みで、GitHub Actions側の設定は不要です。
 
-**GitHub Secrets の設定:**
-
-1. Cloudflare Dashboard > My Profile > API Tokens
-2. 「Create Token」>「Cloudflare Pages: Edit」テンプレートでトークン生成
-3. GitHub > Settings > Secrets and variables > Actions に以下を登録:
-   - `CLOUDFLARE_API_TOKEN`: APIトークン
-   - `CLOUDFLARE_ACCOUNT_ID`: アカウントID（Cloudflare Dashboard左下）
+- 本番ドメイン: `mud-ai.com` / `www.mud-ai.com`
+- プレビュー: `mud-ai-lp.pages.dev`
 
 ### 手動デプロイ
 
 ```bash
 cd website
 npm run build
-npx wrangler pages deploy out --project-name=mudai-corporate
+npx wrangler pages deploy out --project-name=mud-ai-lp
 ```
 
 ### Google Workspace メール設定
