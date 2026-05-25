@@ -74,7 +74,7 @@ Intersection Observer APIで実装
 
 ### メインブランチ
 
-- `main` - 本番環境（Firebase Hosting にデプロイ）
+- `main` - 本番環境（Cloudflare Pages にデプロイ）
 
 ### 作業ブランチ
 
