@@ -63,7 +63,7 @@ export default function Footer() {
           </p>
           <div className="flex gap-6">
             <a
-              href="https://x.com/mudai_inc"
+              href="https://x.com/harmie0610"
               target="_blank"
               rel="noopener noreferrer"
               className="text-mudai-gray-400 hover:text-mudai-accent transition-colors text-sm"
@@ -71,15 +71,15 @@ export default function Footer() {
               X
             </a>
             <a
-              href="https://www.instagram.com/mudai_inc/"
+              href="https://www.facebook.com/share/1CjLQiUxxg/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-mudai-gray-400 hover:text-mudai-accent transition-colors text-sm"
             >
-              Instagram
+              Facebook
             </a>
             <a
-              href="https://note.com/mudai_inc"
+              href="https://note.com/yamachas0"
               target="_blank"
               rel="noopener noreferrer"
               className="text-mudai-gray-400 hover:text-mudai-accent transition-colors text-sm"
